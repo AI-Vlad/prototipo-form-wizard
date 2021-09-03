@@ -8024,9 +8024,11 @@ Portlets
   .portlet.light.bordered {
     border: 1px solid #e7ecf1 !important; }
     .portlet.light.bordered > .portlet-title {
-      border-bottom: 1px solid #eef1f5; }
+      border-bottom: 1px solid #eef1f5;
+    }
   .portlet.light.bg-inverse {
-    background: #f1f4f7; }
+    background: #f1f4f7;
+    position: relative !important }
   .portlet.light > .portlet-title {
     padding: 0;
     min-height: 48px; }
