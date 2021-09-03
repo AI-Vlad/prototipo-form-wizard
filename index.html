@@ -1,0 +1,1681 @@
+<<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="pt-br">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <title>SGI Template - Repositório do Template</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <!-- GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet"
+        type="text/css" />
+    <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet" />
+    <link href="../../../plugins/simple-line-icons/css/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../../plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../../plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css">
+    <link href="../../../plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css">
+
+    <!-- THEME GLOBAL STYLES -->
+    <link href="../../../css/components-rounded.css" rel="stylesheet" id="style_components" type="text/css" />
+    <link href="../../../css/plugins.css" rel="stylesheet" type="text/css" />
+
+    <!-- THEME LAYOUT STYLES -->
+    <link href="../../../css/layout-vertical.css" rel="stylesheet" type="text/css" />
+    <link href="../../../css/custom-vertical.css" rel="stylesheet" type="text/css" />
+    <link href="../../../favicon.ico" rel="shortcut icon" />
+</head>
+
+<body class="page-container-bg-solid page-header-fixed page-sidebar-closed-hide-logo">
+    <!-- BEGIN HEADER -->
+    <div class="page-header navbar navbar-fixed-top">
+        <div class="page-header-inner ">
+
+            <div class="page-logo">
+                <!-- <div class="menu-toggler sidebar-toggler"></div> -->
+                <a href="http://www.sgi.ms.gov.br/">
+                    <img src="../../../img/logo/cotin-mini2-removebg-preview.png" alt="logo" class="logo-default"
+                        style="width: 150px; margin-left: 10px;" />
+                </a>
+
+
+            </div>
+            <div class="page-top">
+
+
+                <div class="top-menu">
+                    <ul class="nav navbar-nav pull-right">
+
+
+                        <li class="dropdown dropdown-user dropdown-dark">
+                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                                data-close-others="true">
+                                <span class="username username-hide-on-mobile" style="color: white;"> USUÁRIO </span>
+                                <img alt="" class="img-circle" src="../../../img/avatar.png" /> </a>
+                            <ul class="dropdown-menu dropdown-menu-default" style="background-color: white;">
+                                <li>
+                                    <a href="outros/usuario-perfil.html">
+                                        <i class="icon-user"></i> Meu Perfil
+                                        <span class="badge badge-danger">1</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="outros/usuario-inbox.html">
+                                        <i class="icon-envelope-open"></i> Caixa de Entrada
+                                        <span class="badge badge-success"> 3 </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="outros/usuario-calendario.html">
+                                        <i class="icon-calendar"></i> Calendário
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="outros/usuario-tarefas.html">
+                                        <i class="icon-rocket"></i> Tarefas
+                                        <span class="badge badge-success"> 7 </span>
+                                    </a>
+                                </li>
+                                <li class="divider"> </li>
+                                <li>
+                                    <a href="outros/usuario-block.html">
+                                        <i class="icon-lock"></i> Bloquear
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../html/blank.html">
+                                        <i class="icon-key"></i> Sair
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown dropdown-extended quick-sidebar-toggler">
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- MENU TOGGLER -->
+
+
+            <!-- PAGE TOP -->
+
+            <!-- END PAGE TOP -->
+        </div>
+        <!-- <div class="page-logo">
+            <div>
+                <img src="../../../img/logo/governo-ms.png" alt="logo" class="logo-default"
+                    style="width: 150px; margin-left: 2500px;">
+            </div>
+        </div> -->
+
+
+    </div>
+    <!-- END HEADER -->
+    <div class="clearfix"> </div>
+
+    <div class="page-container" style="background-color: white;">
+
+        <div class="page-content-wrapper">
+            <!-- BEGIN CONTENT BODY -->
+            <div class="portlet light bordered" id="form_wizard_1">
+                <div class="portlet-title">
+                    <div class="caption">
+
+                        <span class="caption-subject font-red bold uppercase"> BEM-VINDO AO AUTOPARCELAMENTO! -
+                            <span class="step-title"> ETAPA 1 DE 5 </span>
+                        </span>
+                    </div>
+
+                </div>
+                <div class="portlet-body form">
+                    <form class="form-horizontal" action="#" id="submit_form" method="POST" novalidate="novalidate">
+                        <div class="form-wizard">
+                            <div class="form-body">
+                                <ul class="nav nav-pills nav-justified steps">
+                                    <li class="active">
+                                        <a href="#tab1" data-toggle="tab" class="step" aria-expanded="true">
+                                            <span class="number"> 1 </span>
+                                            <br>
+                                            <span class="desc">
+                                                <i class="fa fa-check"></i> INFORME-NOS SUA INSCRIÇÃO ESTADUAL </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#tab2" data-toggle="tab" class="step">
+                                            <span class="number"> 2 </span>
+                                            <br>
+                                            <span class="desc">
+                                                <i class="fa fa-check"></i> SELECIONE O SEUS DÉBITOS </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#tab3" data-toggle="tab" class="step active">
+                                            <span class="number"> 3 </span>
+                                            <br>
+                                            <span class="desc">
+                                                <i class="fa fa-check"></i> SIMULE O PARCELAMENTO</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#tab4" data-toggle="tab" class="step">
+                                            <span class="number"> 4 </span>
+                                            <br>
+                                            <span class="desc">
+                                                <i class="fa fa-check"></i> INFORME-NOS SEUS DADOS PESSOAIS </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#tab5" data-toggle="tab" class="step">
+                                            <span class="number"> 5 </span>
+                                            <br>
+                                            <span class="desc">
+                                                <i class="fa fa-check"></i> ACEITE OS TERMOS E CONDIÇÕES PARA CONCLUIR O
+                                                PROCEDIMENTO </span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                                <div id="bar" class="progress progress-striped" role="progressbar">
+                                    <div class="progress-bar progress-bar-success" style="width: 20%;"> </div>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="alert alert-danger display-none">
+                                        <button class="close" data-dismiss="alert"></button> Algumas informações podem
+                                        estar incorretas.
+                                        Por favor, verifique abaixo.
+                                    </div>
+                                    <div class="alert alert-success display-none">
+                                        <button class="close" data-dismiss="alert"></button> Your form validation is
+                                        successful!
+                                    </div>
+                                    <div class="tab-pane active" id="tab1" style="text-align: center;">
+                                        <h3 class="block">Digite sua Inscrição Estadual no campo abaixo:</h3>
+                                        <div class="form-group" style="text-align: center;">
+                                            <label class="control-label col-md-4">I.E.
+                                                <span class="required"> * </span>
+                                            </label>
+                                            <div class="col-md-4">
+                                                <input type="text" class="form-control">
+                                                <span> Informe aqui sua Inscrição
+                                                    Estadual </span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="tab-pane" id="tab2">
+                                        <span class="block caption-subject font-red bold uppercase">Atenção! Você só
+                                            pode selecionar múltiplos tipos, ou um tipo de débito de UM grupo! </span>
+                                        <br>
+                                        <br>
+                                        <div class="table-scrollable">
+                                            <table class="table table-bordered table-hover">
+                                                <thead>
+
+
+                                                </thead>
+                                                <tbody style="text-align: center;">
+
+                                                    <tr
+                                                        style="text-align: center; font-weight: bold; background-color: #e4e4e4; padding: 5px 0px;">
+                                                        <td colspan="7"> DÉBITOS DO GRUPO OMISSO</td>
+                                                    </tr>
+
+
+
+                                                    <tr
+                                                        style="font-weight: bold; background-color: #e4e4e4; text-transform: uppercase;">
+                                                        <td>TIPO DE DÉBITO</td>
+
+                                                        <td class="table-data-referencia">FATO GERADOR</td>
+                                                        <td>VENCIMENTO</td>
+                                                        <td>VALOR ORIGINAL (R$)</td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td><input type="checkbox" value="OMISSO">
+                                                            ICMS NORMAL</td>
+                                                        <td>31/01/2020</td>
+                                                        <td>31/01/2020</td>
+
+                                                        <td>377,65</td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td><input type="checkbox" value="OMISSO">ICMS NORMAL</td>
+                                                        <td>31/01/2020</td>
+                                                        <td>31/01/2020</td>
+
+                                                        <td>377,65</td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td><input type="checkbox" value="OMISSO">ICMS SQ SN</td>
+                                                        <td>31/01/2020</td>
+                                                        <td>31/01/2020</td>
+
+                                                        <td>377,65</td>
+
+                                                    </tr>
+
+
+
+
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <div class="table-scrollable">
+                                            <table class="table table-bordered table-hover">
+                                                <thead>
+
+
+                                                </thead>
+                                                <tbody style="text-align: center;">
+
+                                                    <tr
+                                                        style="text-align: center; font-weight: bold; background-color: #e4e4e4; padding: 5px 0px;">
+                                                        <td colspan="7"> DÉBITOS DO GRUPO SIMPLES NACIONAL</td>
+                                                    </tr>
+
+
+
+                                                    <tr
+                                                        style="font-weight: bold; background-color: #e4e4e4; text-transform: uppercase;">
+                                                        <td>TIPO DE DÉBITO</td>
+
+                                                        <td class="table-data-referencia">FATO GERADOR</td>
+                                                        <td>VENCIMENTO</td>
+                                                        <td>VALOR ORIGINAL (R$)</td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td><input type="checkbox" value="SIMNAC">SIMNAC</td>
+                                                        <td>31/01/2020</td>
+                                                        <td>31/01/2020</td>
+
+
+                                                        <td>377,65</td>
+
+                                                    </tr>
+
+
+
+
+
+
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <div class="table-scrollable">
+                                            <table class="table table-bordered table-hover">
+                                                <thead>
+
+
+                                                </thead>
+                                                <tbody style="text-align: center;">
+
+                                                    <tr
+                                                        style="text-align: center; font-weight: bold; background-color: #e4e4e4; padding: 5px 0px;">
+                                                        <td colspan="7"> DÉBITOS DO GRUPO PROCESSOS</td>
+                                                    </tr>
+
+
+
+                                                    <tr
+                                                        style="font-weight: bold; background-color: #e4e4e4; text-transform: uppercase;">
+                                                        <td>Nº DO DOCUMENTO</td>
+                                                        <td>TIPO DE DÉBITO</td>
+
+                                                        <td class="table-data-referencia">DATA DE LAVRATURA</td>
+                                                        <td>NUMERO SPI</td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td><input type="checkbox" value="ALIM"><a href=""
+                                                                onclick="exibirAlim()">
+                                                                2701-M
+                                                            </a></td>
+                                                        <td>ALIM ICMS</td>
+                                                        <td>31/01/2020</td>
+
+                                                        <td>11/001292/2020</td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td><input type="checkbox" value="ALIM"><a href=""
+                                                                onclick="exibirAlim()">
+                                                                2701-M
+                                                            </a> </td>
+                                                        <td>ALIM ICMS</td>
+                                                        <td>31/01/2020</td>
+
+                                                        <td>11/001292/2020</td>
+
+                                                    </tr>
+
+
+
+
+
+
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="tab3">
+
+                                        <div id="omisso" class="portlet-body" style="display: block;">
+
+                                            <!-- BEGIN FORM-->
+
+                                            <div id="formularioValores" class="portlet light bordered"
+                                                style="display: block;">
+
+                                                <div class="portlet-body form">
+
+
+                                                    <form action="#" class="form-horizontal">
+                                                        <div class="form-body">
+
+                                                            <div class="form-group">
+
+                                                                <div id="valorQuitado"
+                                                                    class="col-md-4 col-sm-12 col-xs-12"
+                                                                    style="text-align: left;  padding: 0px;">
+
+                                                                    <ul style="list-style-type: none; padding: 0px; ">
+                                                                        <li>
+                                                                            <h3 style="font-weight: bold;">
+                                                                                DEMONSTRATIVO CONSOLIDADO: </h3>
+                                                                        </li>
+
+
+
+                                                                    </ul>
+                                                                </div>
+
+
+                                                                <div id="demonstrativoConsolidado"
+                                                                    class="col-md-12 col-sm-12 col-xs-12"
+                                                                    style="padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 14px; text-align: center; display: block">
+
+
+                                                                    <div class=" " style="margin:auto">
+
+
+                                                                        <div class="table-scrollable"
+                                                                            style="align-items: center;">
+
+
+
+
+
+
+
+
+                                                                            <div id="tabelaOutros" class="portlet-body"
+                                                                                style="display: none;">
+                                                                                <div class="table-scrollable">
+                                                                                    <table
+                                                                                        class="table table-bordered table-hover"
+                                                                                        style="border-collapse: collapse;">
+                                                                                        <thead id="parcelado">
+
+                                                                                            <tr
+                                                                                                style="font-weight: bold;">
+
+
+                                                                                                <th colspan="2"
+                                                                                                    rowspan="2"
+                                                                                                    style="text-align:center;">
+                                                                                                    DESCRIÇÃO
+
+                                                                                                </th>
+
+
+                                                                                                <th colspan="2"
+                                                                                                    rowspan="2"
+                                                                                                    style="text-align: center;">
+                                                                                                    VALOR ORIGINÁRIO
+                                                                                                    (R$)</th>
+
+                                                                                                <th colspan="3"
+                                                                                                    style="text-align: center;">
+                                                                                                    VALOR ATUALIZADO
+                                                                                                    (R$)</th>
+
+
+                                                                                            </tr>
+                                                                                            <tr
+                                                                                                style="font-weight: bold;">
+
+
+
+
+
+
+                                                                                                <th colspan="1"
+                                                                                                    style="text-align: center;">
+                                                                                                    À VISTA</th>
+
+
+
+                                                                                                <th colspan="1"
+                                                                                                    style="text-align: center;">
+                                                                                                    ATÉ 4 VEZES</th>
+                                                                                                <th colspan="1"
+                                                                                                    style="text-align: center;">
+                                                                                                    ACIMA DE 4 VEZES
+                                                                                                </th>
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td colspan="2"
+                                                                                                    style="text-align: center;">
+                                                                                                    TRIBUTO</td>
+
+
+                                                                                                <td colspan="2"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+                                                                                                </td>
+                                                                                                <td colspan="1"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+
+                                                                                                <td colspan="1"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+                                                                                                </td>
+                                                                                                <td colspan="1"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+                                                                                                </td>
+
+
+                                                                                            </tr>
+
+                                                                                            <tr>
+                                                                                                <td colspan="2"
+                                                                                                    style="text-align: center;">
+                                                                                                    MULTA</td>
+
+
+                                                                                                <td colspan="2"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+                                                                                                </td>
+                                                                                                <td colspan="1"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+                                                                                                <td colspan="1"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+                                                                                                </td>
+                                                                                                <td colspan="1"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+
+
+
+                                                                                            </tr>
+
+                                                                                            <tr>
+                                                                                                <td colspan="2"
+                                                                                                    style="text-align: center;">
+                                                                                                    JUROS</td>
+
+
+                                                                                                <td colspan="2"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+                                                                                                </td>
+                                                                                                <td colspan="1"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+
+                                                                                                <td colspan="1"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+                                                                                                </td>
+                                                                                                <td colspan="1"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+
+
+                                                                                            </tr>
+
+                                                                                            <tr>
+                                                                                                <td colspan="2"
+                                                                                                    style="text-align: center;">
+                                                                                                    TOTAL</td>
+
+
+                                                                                                <td colspan="2"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+                                                                                                </td>
+                                                                                                <td colspan="1"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+
+                                                                                                <td colspan="1"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+                                                                                                </td>
+                                                                                                <td colspan="1"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+
+
+                                                                                            </tr>
+
+
+
+                                                                                        </thead>
+
+
+                                                                                    </table>
+
+                                                                                </div>
+
+                                                                            </div>
+
+                                                                            <div id="tabelaAlim" class="portlet-body"
+                                                                                style="display: block;">
+                                                                                <div class="table-scrollable">
+                                                                                    <table
+                                                                                        class="table table-bordered table-hover"
+                                                                                        style="border-collapse: collapse;">
+                                                                                        <thead id="parcelado2">
+
+                                                                                            <tr
+                                                                                                style="font-weight: bold;">
+
+
+                                                                                                <th colspan="2"
+                                                                                                    rowspan="2"
+                                                                                                    style="text-align:center;">
+                                                                                                    DESCRIÇÃO
+
+                                                                                                </th>
+
+
+                                                                                                <th colspan="2"
+                                                                                                    rowspan="2"
+                                                                                                    style="text-align: center;">
+                                                                                                    VALOR ORIGINÁRIO
+                                                                                                    (R$)</th>
+
+                                                                                                <th colspan="3"
+                                                                                                    style="text-align: center;">
+                                                                                                    VALOR ATUALIZADO
+                                                                                                    (R$)</th>
+
+
+                                                                                            </tr>
+                                                                                            <tr
+                                                                                                style="font-weight: bold;">
+
+
+
+
+
+
+
+
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td colspan="2"
+                                                                                                    style="text-align: center;">
+                                                                                                    TRIBUTO</td>
+
+
+                                                                                                <td colspan="2"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+                                                                                                </td>
+                                                                                                <td colspan="1"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+
+
+
+
+                                                                                            </tr>
+
+                                                                                            <tr>
+                                                                                                <td colspan="2"
+                                                                                                    style="text-align: center;">
+                                                                                                    MULTA</td>
+
+
+                                                                                                <td colspan="2"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+                                                                                                </td>
+                                                                                                <td colspan="1"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+
+
+
+
+                                                                                            </tr>
+
+                                                                                            <tr>
+                                                                                                <td colspan="2"
+                                                                                                    style="text-align: center;">
+                                                                                                    JUROS</td>
+
+
+                                                                                                <td colspan="2"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+                                                                                                </td>
+                                                                                                <td colspan="1"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+
+
+
+
+
+                                                                                            </tr>
+
+                                                                                            <tr>
+                                                                                                <td colspan="2"
+                                                                                                    style="text-align: center;">
+                                                                                                    TOTAL</td>
+
+
+                                                                                                <td colspan="2"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+                                                                                                </td>
+                                                                                                <td colspan="1"
+                                                                                                    style="text-align: center;">
+                                                                                                    78,14
+
+
+
+
+                                                                                            </tr>
+
+
+
+                                                                                        </thead>
+
+
+                                                                                    </table>
+
+                                                                                </div>
+
+                                                                            </div>
+
+
+
+
+
+
+
+
+                                                                        </div>
+
+
+
+
+                                                                    </div>
+
+
+
+                                                                </div>
+                                                                <div id="valorQuitado"
+                                                                    class="col-md-3 col-sm-12 col-xs-12"
+                                                                    style="text-align: left;  padding: 0px;">
+
+                                                                    <ul style="list-style-type: none; padding: 0px; ">
+                                                                        <li>
+                                                                            <h3 id="titulo" style="font-weight: bold;">
+                                                                                ESCOLHA A
+                                                                                FORMA DE PAGAMENTO: </h3>
+                                                                        </li>
+
+
+
+                                                                    </ul>
+                                                                </div>
+
+                                                                <div id="daems" class="portlet-body"
+                                                                    style="display: none;">
+                                                                    <div class="portlet light bordered">
+                                                                        <div class="portlet-title"
+                                                                            style="text-align: center;">
+
+                                                                            <h1>EXIBIÇÃO DE ALIM</h1>
+
+
+                                                                        </div>
+                                                                        <div class="portlet-body form"
+                                                                            style="text-align: center;">
+                                                                            <p>ESPAÇO ONDE SERÁ EXIBIDO O ALIM
+                                                                                RESPECTIVO SELECIONADO NA TELA
+                                                                                ANTERIOR</p>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+
+                                                                <div id="daems2" class="portlet-body"
+                                                                    style="display: none;">
+                                                                    <div class="portlet light bordered">
+                                                                        <div class="portlet-title"
+                                                                            style="text-align: center;">
+
+                                                                            <h1>EXIBIÇÃO DE DAEMS</h1>
+
+
+                                                                        </div>
+                                                                        <div class="portlet-body form"
+                                                                            style="text-align: center;">
+                                                                            <p>ESPAÇO ONDE SERÁ EXIBIDO O DAEMS
+                                                                                RESPECTIVO SELECIONADO NA TELA
+                                                                                ANTERIOR</p>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+
+                                                                <div class="col-md-9" id="opcoes"
+                                                                    style="text-align: left; margin-top: 40px; ">
+
+
+                                                                    <div class="col-md-3" id="divVista">
+                                                                        <input id="vista" type="RADIO" name="pagamento"
+                                                                            value="avista" style="border: 0px;
+                                                                                width: 20%;
+                                                                                height: 1.5em;">PAGAR À VISTA
+
+                                                                    </div>
+                                                                    <div class="col-md-3" id="divParcelado">
+                                                                        <input type="RADIO" id="parcela"
+                                                                            name="pagamento" value="parcelado" style="border: 0px;
+                                                                                width: 20%;
+                                                                                height: 1.5em;">PARCELAR
+
+
+                                                                    </div>
+
+
+
+
+
+
+
+                                                                    <div id="parcelaSelect" onchange=""
+                                                                        style="display: none; margin-top: 20px;">
+                                                                        <label for="parcelas">Escolha a quantidade de
+                                                                            parcelas:</label>
+
+                                                                        <select onchange="tableParceledOut()"
+                                                                            name="parcelas" id="parcelas">
+                                                                            <option value="" disabled selected hidden>
+                                                                                PARCELAS</option>
+
+                                                                            <option value=2>2X</option>
+                                                                            <option value=3>3X</option>
+                                                                            <option value=4>4X</option>
+                                                                            <option value=5>5X</option>
+                                                                            <option value=6>6X</option>
+                                                                            <option value=7>7X</option>
+                                                                            <option value=8>8X</option>
+                                                                            <option value=9>9X</option>
+                                                                            <option value=10>10X</option>
+                                                                        </select>
+                                                                    </div>
+
+                                                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                <div id="valorParcelado1"
+                                                                    class="col-md-12 col-sm-12 col-xs-12"
+                                                                    style="padding: 0px; font-family: 'Open Sans', sans-serif; font-size: 14px; text-align: center;">
+
+
+                                                                    <div class=" " style="margin:auto">
+
+
+                                                                        <div class="table-scrollable"
+                                                                            style="align-items: center;">
+
+
+
+
+
+
+
+                                                                            <div class="portlet-body">
+                                                                                <div class="table-scrollable">
+                                                                                    <table
+                                                                                        class="table table-bordered table-hover"
+                                                                                        style="border-collapse: collapse;">
+
+
+                                                                                        <thead id="parceladoCabecalho"
+                                                                                            style="font-weight: bold; background-color: #e4e4e4;">
+
+
+                                                                                        <tbody id="valorParcelado">
+                                                                                        </tbody>
+
+
+                                                                                        </thead>
+                                                                                    </table>
+
+                                                                                </div>
+
+                                                                            </div>
+
+
+
+
+
+
+
+
+                                                                        </div>
+
+
+
+
+                                                                    </div>
+
+
+
+                                                                </div>
+
+
+                                                            </div>
+
+                                                        </div>
+
+
+                                                </div>
+
+
+
+                                            </div>
+
+                    </form>
+                    <!-- END FORM-->
+                </div>
+            </div>
+            <div class="tab-pane" id="tab4" style="text-align: center;">
+                <span class="block caption-subject font-red bold uppercase">Atenção! Os dados informados abaixo serão
+                    confirmados como informações do responsável pela assinatura do parcelamento. </span>
+                <h3 class="block">Digite seus dados pessoais nos campos abaixo:</h3>
+                <div class="form-group" style="text-align: center;">
+                    <label class="control-label col-md-4">Nome
+                        <span class="required"> * </span>
+                    </label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control">
+                        <span> Informe aqui seu nome completo
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group" style="text-align: center;">
+                    <label class="control-label col-md-4">CPF
+                        <span class="required"> * </span>
+                    </label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control">
+                        <span> Informe aqui seu
+                            CPF </span>
+                    </div>
+                </div>
+                <div class="form-group" style="text-align: center;">
+                    <label class="control-label col-md-4">RG
+                        <span class="required"> * </span>
+                    </label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control">
+                        <span> Informe aqui seu
+                            RG </span>
+                    </div>
+                </div>
+                <div class="form-group" style="text-align: center;">
+                    <label class="control-label col-md-4">ÓRGÃO EXPEDIDOR DO RG
+                        <span class="required"> * </span>
+                    </label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control">
+                        <span> Informe aqui o órgão expedidor do RG
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group" style="text-align: center;">
+                    <label class="control-label col-md-4">NACIONALIDADE
+                        <span class="required"> * </span>
+                    </label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control">
+                        <span>Informe aqui sua nacionalidade </span>
+                    </div>
+                </div>
+                <h3 class="block">Preencha seus dados de Endereço nos campos abaixo:</h3>
+                <div class="form-group" style="text-align: center;">
+                    <label class="control-label col-md-4">CEP
+                        <span class="required"> * </span>
+                    </label>
+                    <div class="col-md-4">
+                        <input id="cep" type="text" class="form-control">
+                        <span> Informe aqui seu CEP
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="form-group" style="text-align: center;">
+                    <label class="control-label col-md-4">NÚMERO
+                        <span class="required"> * </span>
+                    </label>
+                    <div class="col-md-4">
+                        <input id="numero" type="text" class="form-control">
+                        <span> Informe aqui o numero da sua residência
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="form-group" style="text-align: center;">
+                    <label class="control-label col-md-4">LOGRADOURO (Rua, Avenida, etc...)
+                        <span class="required"> * </span>
+                    </label>
+                    <div class="col-md-4">
+                        <input id="logradouro" type="text" class="form-control">
+                        <span> Informe aqui seu logradouro
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="form-group" style="text-align: center;">
+                    <label class="control-label col-md-4">BAIRRO
+                        <span class="required"> * </span>
+                    </label>
+                    <div class="col-md-4">
+                        <input id="bairro" type="text" class="form-control">
+                        <span> Informe aqui seu bairro
+                        </span>
+                    </div>
+
+                </div>
+                <div class="form-group" style="text-align: center;">
+                    <label class="control-label col-md-4">COMPLEMENTO
+                        <span class="required"> * </span>
+                    </label>
+                    <div class="col-md-4">
+                        <input id="complemento" type="text" class="form-control">
+                        <span> Informe aqui seu complemento de endereço
+                        </span>
+                    </div>
+
+                </div>
+                <div class="form-group" style="text-align: center;">
+                    <label class="control-label col-md-4">ESTADO
+                        <span class="required"> * </span>
+                    </label>
+                    <div class="col-md-4">
+                        <input id="uf" type="text" class="form-control">
+                        <span> Informe aqui seu Estado
+                        </span>
+                    </div>
+
+                </div>
+                <div class="form-group" style="text-align: center;">
+                    <label class="control-label col-md-4">CIDADE
+                        <span class="required"> * </span>
+                    </label>
+                    <div class="col-md-4">
+                        <input id="cidade" type="text" class="form-control">
+                        <span> Informe aqui sua cidade </span>
+                    </div>
+
+                </div>
+
+                <h3 class="block">Digite suas informações para contato nos campos abaixo:</h3>
+                <div class="form-group" style="text-align: center;">
+                    <label class="control-label col-md-4">TELEFONE CELULAR
+                        <span class="required"> * </span>
+                    </label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control">
+                        <span> Informe aqui seu TELEFONE CELULAR
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group" style="text-align: center;">
+                    <label class="control-label col-md-4">TELEFONE FIXO
+
+                    </label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control">
+                        <span> Informe aqui seu
+                            TELEFONE FIXO </span>
+                    </div>
+                </div>
+                <div class="form-group" style="text-align: center;">
+                    <label class="control-label col-md-4">EMAIL
+                        <span class="required"> * </span>
+                    </label>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control">
+                        <span> Informe aqui seu
+                            Email que mais utiliza </span>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="tab-pane" id="tab5" style="text-align: center;">
+                <h3 class="block">TERMOS E CONDIÇÕES</h3>
+
+                <div style="overflow-y: scroll;  width: 50%;
+                height: 300px; margin: auto; text-align: justify;">
+                    Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem
+                    sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os
+                    embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos,
+                    como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se
+                    popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e
+                    mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus
+                    PageMaker.
+                    Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem
+                    sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os
+                    embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos,
+                    como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se
+                    popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e
+                    mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus
+                    PageMaker.
+                    Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem
+                    sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os
+                    embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos,
+                    como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se
+                    popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e
+                    mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus
+                    PageMaker.
+
+
+
+
+
+
+
+                </div>
+                <br>
+                <input class="input_box" name="checkbox" type="checkbox" value="termo" id="termoConcordado" />
+                <p class="texto_box">Eu li, entendi e concordo com estas regras e condições.</p>
+
+
+            </div>
+
+        </div>
+    </div>
+    <div class="form-actions">
+        <div class="row" style="text-align: center;">
+            <div class="col-md-offset-3 col-md-9" style="width: 100%; margin: auto;">
+                <a class="btn default button-previous " id="voltar" style="display: none;">
+                    <i class="fa fa-angle-left"></i> VOLTAR </a>
+                <a class="btn btn-outline green button-next" onclick="" id="prosseguir"> PROSSEGUIR
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                <a style="display: none" onclick="alert('AO CLICAR EM CONCLUIR EXIBIR DAEMS E PDF PARA IMPRESSÃO')"
+                    class="btn green " id="concluido" class="concluido">
+                    CONCLUIR
+                    <i class="fa fa-check"></i>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    </form>
+    </div>
+    </div>
+    <!-- END CONTENT BODY -->
+    </div>
+    <!-- END CONTENT -->
+
+    <!-- QUICK SIDEBAR -->
+
+    </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 assinatura">
+                    <img src="../../../img/logo/ucqi-mini.png" alt="UCQI">
+                    <img src="../../../img/logo/cotin-mini2-removebg-preview.png" alt="logo" class="logo-default"
+                        style="width: 300px; margin-left: 10px; margin-bottom: 20px; " />
+                </div>
+                <div class="col-md-4 text-center">
+                    <p class="copyright">© 2020 COTIN - Todos direitos reservados</p>
+                </div>
+                <div class="col-md-4 text-right">
+                    <img class="footer-logo" src="../../img/logo/sefaz.png" alt="Sefaz">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BEGIN QUICK NAV -->
+
+
+    <div class="quick-nav-overlay"></div>
+
+    <!--[if lt IE 9]>
+        <script src="../../../plugins/respond/respond.min.js"></script>
+        <script src="../../../plugins/excanvas.min.js"></script> 
+    <![endif]-->
+
+    <!-- CORE PLUGINS -->
+    <script src="../../../plugins/jquery/jquery.min.js" type="text/javascript"></script>
+    <script src="../../../plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"
+        type="text/javascript"></script>
+    <script src="../../../plugins/js.cookie.min.js" type="text/javascript"></script>
+    <script src="../../../plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="../../../plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="../../../plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+    <script src="../../../plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+
+    <!-- GLOBAL SCRIPTS -->
+    <script src="../../../app/app.js" type="text/javascript"></script>
+
+    <!-- WIZARD FORM SCRIPTS -->
+    <script src="../../../plugins/jquery-validation/jquery.validate.min.js" type="text/javascript"></script>
+
+    <script src="../../../plugins/select2/js/select2.full.min.js" type="text/javascript"></script>
+    <script src="../../../plugins/jquery-validation/additional-methods.min.js" type="text/javascript"></script>
+    <script src="../../../plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js" type="text/javascript"></script>
+    <script src="../../../pages/js/form-wizard.min.js" type="text/javascript"></script>
+
+    <!-- LAYOUT SCRIPTS -->
+    <script src="../../../app/layout-vertical.js" type="text/javascript"></script>
+    <script src="../../../app/quick-sidebar.js" type="text/javascript"></script>
+    <script src="../../../app/quick-nav.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('[data-hint="tooltip"]').tooltip();
+        });
+    </script>
+
+    <script>
+
+        // BUSCA POR CEP
+
+        $("#cep").change(function () {
+            //Início do Comando AJAX
+            console.log($(this).val().length)
+
+            if ($(this).val().length == 9) {
+                $.ajax({
+
+                    url: 'https://viacep.com.br/ws/' + $(this).val() + '/json/unicode/',
+
+                    dataType: 'json',
+
+                    success: function (resposta) {
+                        //Agora basta definir os valores que você deseja preencher
+                        //automaticamente nos campos acima.
+                        $("#logradouro").val(resposta.logradouro);
+                        $("#complemento").val(resposta.complemento);
+                        $("#bairro").val(resposta.bairro);
+                        $("#cidade").val(resposta.localidade);
+                        $("#uf").val(resposta.uf);
+                        //Vamos incluir para que o Número seja focado automaticamente
+                        //melhorando a experiência do usuário
+                        $("#numero").focus();
+                    }
+                });
+            }
+
+
+        });
+
+        // function detectCheckboxValue(){
+        var checkboxValue
+
+        $('input[type=checkbox]').on('change', function () {
+
+            let parceladoCabecalho = $('#parceladoCabecalho')[0]
+            let parceladoCorpo = $('#valorParcelado')[0]
+
+            let array = [parceladoCabecalho, parceladoCorpo]
+            array.forEach(element => {
+                element.innerHTML = ''
+            });
+
+            console.log('loading..')
+
+            let inputs = $('input[type=checkbox]')
+            inputs = [...inputs]
+
+            console.log(inputs)
+
+
+            inputs.forEach(input => {
+                if (input.checked) {
+                    console.log(input.value)
+                    checkboxValue = input.value
+                }
+
+
+            });
+            if (checkboxValue == 'ALIM') {
+
+                console.log('esconder divs')
+
+                $('#titulo')[0].innerText = 'ALIMS DISPONIVEIS PARA PAGAMENTO:'
+                // $('#divVista').hide()
+                // $('#divParcelado').hide()
+                $('#parcelaSelect').hide()
+
+                $('#tabelaAlim')[0].style.display = 'none'
+                $('#tabelaOutros')[0].style.display = 'block'
+
+
+                let tabelaCorpo = $('#valorParcelado')[0]
+                let tabelaCabecalho = $('#parceladoCabecalho')[0]
+
+
+
+
+
+            } if (checkboxValue == 'OMISSO' || checkboxValue == 'SIMNAC') {
+
+                console.log(checkboxValue)
+
+                $('#tabelaAlim')[0].style.display = 'block'
+                $('#tabelaOutros')[0].style.display = 'none'
+
+                $('#titulo')[0].innerText = 'SELECIONE A FORMA DE PAGAMENTO:'
+
+                // $('#divVista').show()
+                // $('#divParcelado').show()
+
+            }
+
+
+
+        })
+        // console.log(checkboxValue)
+        // return checkboxValue
+
+        // }
+
+
+
+
+        function detectRadioValue() {
+
+            let inputs = $('input[type=radio]')
+            inputs = [...inputs]
+            let radioValue
+
+
+            inputs.forEach(input => {
+                if (input.checked)
+                    radioValue = input.value
+
+            });
+
+            return {
+                valorRadio: radioValue,
+                valorCheckbox: checkboxValue
+            }
+
+        }
+
+
+
+        function tableParceledOut() {
+
+
+
+            let quantidadeParcela = $('#parcelas')[0].value
+            let parceladoCabecalho = $('#parceladoCabecalho')[0]
+            let parceladoCorpo = $('#valorParcelado')[0]
+
+            let array = [parceladoCabecalho, parceladoCorpo]
+            array.forEach(element => {
+                element.innerHTML = ''
+            });
+
+            let trHead = document.createElement('tr')
+            trHead.insertCell(0).innerHTML = 'PARCELA'
+            trHead.insertCell(1).innerHTML = 'VENCIMENTO'
+            trHead.insertCell(2).innerHTML = 'VALOR'
+
+            parceladoCabecalho.appendChild(trHead)
+
+
+            for (let index = 1; index <= quantidadeParcela; index++) {
+                let tr = document.createElement('tr')
+                tr.insertCell(0).innerHTML = index + 'ª'
+                tr.insertCell(1).innerHTML = '18/02/2021'
+                tr.insertCell(2).innerHTML = '300,00'
+
+
+
+                parceladoCorpo.appendChild(tr)
+
+
+
+            }
+
+
+
+
+        }
+
+        $(document).ready(function () {
+
+            // $('#divVista').hide()
+            // $('#divParcelado').hide()
+
+            var $back = $("#voltar")
+            var $submit = $("#concluido").hide(),
+                $cbs = $('input[name="checkbox"]').click(function () {
+                    // $submit.toggle($cbs.is(":checked"));
+                    if ($cbs.is(":checked")) {
+                        $submit.show()
+                        $back.hide()
+                    } else {
+                        $submit.hide()
+                        $back.show()
+                    }
+
+
+                });
+
+
+        });
+
+        $(document).ready(function () {
+
+
+
+
+            $('input[type=radio]').on('change', async function () {
+
+                let forward = $("#prosseguir")
+                let tabelaCorpo = $('#valorParcelado')[0]
+                let tabelaCabecalho = $('#parceladoCabecalho')[0]
+                let paymentType = await detectRadioValue()
+
+                console.log(paymentType)
+
+
+
+
+
+
+                tabelaCorpo.innerHTML = ''
+                tabelaCabecalho.innerHTML = ''
+
+                if (paymentType == 'alim' || 'avista') {
+                    $('#parcelaSelect').hide()
+                    forward.hide()
+                } if (paymentType.valorRadio == 'parcelado') {
+                    console.log('parcelar')
+                    $('#parcelaSelect').show()
+                    forward.show()
+                }
+
+                if (paymentType.valorRadio == 'avista' && (paymentType.valorCheckbox == "SIMNAC" || paymentType.valorCheckbox == "OMISSO")) {
+
+
+                    let trHead = document.createElement('tr')
+                    trHead.insertCell(0).innerHTML = 'PARCELA'
+                    trHead.insertCell(1).innerHTML = 'VENCIMENTO'
+                    trHead.insertCell(2).innerHTML = 'VALOR'
+                    trHead.insertCell(3).innerHTML = 'AÇÕES'
+
+                    let tr = document.createElement('tr')
+                    tr.insertCell(0).innerHTML = '1ª(À VISTA)'
+                    tr.insertCell(1).innerHTML = '18/02/2021'
+                    tr.insertCell(2).innerHTML = '300,00'
+
+                    let daemsButton = document.createElement('button')
+                    daemsButton.classList.add('btn')
+                    daemsButton.classList.add('green')
+                    daemsButton.innerText = 'EMITIR DAEMS'
+
+                    parceladoCabecalho.appendChild(trHead)
+                    tabelaCorpo.appendChild(tr)
+                    tr.appendChild(daemsButton)
+
+                    console.log('hora de criar um pagamento À VISTA')
+                }
+
+                if (paymentType.valorRadio == 'avista' && paymentType.valorCheckbox == 'ALIM') {
+
+                    console.log('HORA DE CRIAR ALIMS')
+
+                    let trHeadAlim = document.createElement('tr')
+                    trHeadAlim.insertCell(0).innerHTML = 'ALIM'
+                    trHeadAlim.insertCell(1).innerHTML = 'VENCIMENTO'
+                    trHeadAlim.insertCell(2).innerHTML = 'VALOR'
+                    trHeadAlim.insertCell(3).innerHTML = 'AÇÕES'
+
+                    let trAlim = document.createElement('tr')
+
+                    let daemsLink = document.createElement('a')
+                    daemsLink.innerText = '2071-M'
+                    daemsLink.setAttribute('onclick', 'exibirAlim()')
+                    let tdAlim = document.createElement('td')
+                    tdAlim.appendChild(daemsLink)
+
+
+                    trAlim.appendChild(tdAlim)
+                    // tr.insertCell(0).innerHTML = td
+                    trAlim.insertCell(1).innerHTML = '18/02/2021'
+                    trAlim.insertCell(2).innerHTML = '300,00'
+
+                    let daemsButtonAlim = document.createElement('button')
+                    daemsButtonAlim.classList.add('btn')
+                    daemsButtonAlim.classList.add('green')
+                    daemsButtonAlim.innerText = 'EMITIR DAEMS'
+                    daemsButtonAlim.setAttribute('onclick', 'exibirDaems()')
+                    let tdButtonAlim = document.createElement('td')
+                    tdButtonAlim.appendChild(daemsButtonAlim)
+
+                    tabelaCabecalho.appendChild(trHeadAlim)
+                    tabelaCorpo.appendChild(trAlim)
+                    trAlim.appendChild(tdButtonAlim)
+
+                    // let trHead2 = document.createElement('tr')
+                    // trHead2.insertCell(0).innerHTML = 'ALIM'
+                    // trHead2.insertCell(1).innerHTML = 'VENCIMENTO'
+                    // trHead2.insertCell(2).innerHTML = 'VALOR'
+                    // trHead2.insertCell(3).innerHTML = 'AÇÕES'
+
+                    let tr2 = document.createElement('tr')
+                    let daemsLink2 = document.createElement('a')
+                    daemsLink2.innerText = '2071-M'
+                    daemsLink2.setAttribute('onclick', 'exibirAlim()')
+                    let td2 = document.createElement('td')
+                    td2.appendChild(daemsLink2)
+
+
+                    tr2.appendChild(td2)
+                    tr2.insertCell(1).innerHTML = '18/02/2021'
+                    tr2.insertCell(2).innerHTML = '300,00'
+
+                    let daemsButton2 = document.createElement('button')
+                    daemsButton2.classList.add('btn')
+                    daemsButton2.classList.add('green')
+                    daemsButton2.innerText = 'EMITIR DAEMS'
+                    daemsButton2.setAttribute('onclick', 'exibirDaems()')
+                    let tdButton2 = document.createElement('td')
+                    tdButton2.appendChild(daemsButton2)
+
+                    // parceladoCabecalho.appendChild(trHead2)
+                    tabelaCorpo.appendChild(tr2)
+                    tr2.appendChild(tdButton2)
+                }
+
+
+            });
+
+
+
+            ;
+
+
+        });
+
+
+
+
+
+
+
+        function exibirDaems() {
+
+
+            let minhaTabela = document.getElementById('daems2').innerHTML
+
+
+            let style = "<style>";
+            style = style + "table {width: 100%;font: 20px Calibri;}";
+            style = style + "table, th, td {border: solid 1px #DDD; border-collapse: collapse;";
+            style = style + "padding: 2px 3px;text-align: center;}";
+            style = style + "</style>";
+
+            let janela = window.open('', '', 'height = 700, width = 1000')
+
+            janela.document.write('<html><head>')
+            janela.document.write('<title>DAEMS</title>')
+            janela.document.write('<meta http-equiv="X-UA-Compatible" content="IE=edge"> ')
+            janela.document.write(' <meta content="width=device-width, initial-scale=1" name="viewport" > ')
+            janela.document.write(' <meta content="width=device-width, initial-scale=1" name="viewport" > ')
+            janela.document.write('<link href="http://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css" />')
+            janela.document.write('    <link href="../../../plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />')
+            janela.document.write(' <link href="../../../plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css">')
+            janela.document.write('<link href="../../../plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css">')
+            janela.document.write('<link href="../../../css/components-rounded.css" rel="stylesheet" id="style_components" type="text/css" />')
+            janela.document.write('<link href="../../../css/plugins.css" rel="stylesheet" type="text/css" />')
+            janela.document.write('<link href="../../../css/layout-vertical.css" rel="stylesheet" type="text/css" />')
+            janela.document.write(' <link href="../../../css/custom-vertical.css" rel="stylesheet" type="text/css" />')
+            janela.document.write('</head>')
+            janela.document.write('<body>')
+
+            janela.document.write(minhaTabela)
+            janela.document.write('</body></html>')
+
+
+
+
+
+            //  janela.print()
+            // janela.document.close()
+        }
+
+        function exibirAlim() {
+
+
+            let minhaTabela = document.getElementById('daems').innerHTML
+
+
+            let style = "<style>";
+            style = style + "table {width: 100%;font: 20px Calibri;}";
+            style = style + "table, th, td {border: solid 1px #DDD; border-collapse: collapse;";
+            style = style + "padding: 2px 3px;text-align: center;}";
+            style = style + "</style>";
+
+            let janela = window.open('', '', 'height = 700, width = 1000')
+
+            janela.document.write('<html><head>')
+            janela.document.write('<title>ALIM</title>')
+            janela.document.write('<meta http-equiv="X-UA-Compatible" content="IE=edge"> ')
+            janela.document.write(' <meta content="width=device-width, initial-scale=1" name="viewport" > ')
+            janela.document.write(' <meta content="width=device-width, initial-scale=1" name="viewport" > ')
+            janela.document.write('<link href="http://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css" />')
+            janela.document.write('    <link href="../../../plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />')
+            janela.document.write(' <link href="../../../plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css">')
+            janela.document.write('<link href="../../../plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css">')
+            janela.document.write('<link href="../../../css/components-rounded.css" rel="stylesheet" id="style_components" type="text/css" />')
+            janela.document.write('<link href="../../../css/plugins.css" rel="stylesheet" type="text/css" />')
+            janela.document.write('<link href="../../../css/layout-vertical.css" rel="stylesheet" type="text/css" />')
+            janela.document.write(' <link href="../../../css/custom-vertical.css" rel="stylesheet" type="text/css" />')
+            janela.document.write('</head>')
+            janela.document.write('<body>')
+
+            janela.document.write(minhaTabela)
+            janela.document.write('</body></html>')
+
+
+
+            //  janela.print()
+            // janela.document.close()
+        }
+    </script>
+</body>
+
+</html>

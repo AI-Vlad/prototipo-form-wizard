@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "..\\app"
+		},
+		{
+			"path": "..\\css"
+		},
+		{
+			"path": "..\\img"
+		},
+		{
+			"path": "..\\media"
+		},
+		{
+			"path": "..\\pages"
+		},
+		{
+			"path": "..\\plugins"
+		},
+		{
+			"path": "."
+		}
+	]
+}
